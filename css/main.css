@@ -38,7 +38,15 @@ a {
 .pl15 {
   padding-left: 15px;
 }
-
+.pt15{
+  padding-top: 15px;
+}
+.pr10{
+  padding-right: 10px;
+}
+.pl10{
+  padding-left: 10px;
+}
 .m0 {
   margin: 0;
 }
@@ -259,7 +267,7 @@ body {
 
 .main-item-img {
   width: 100%;
-  height: 357px;
+  height: 257px;
 }
 
 .main-item-img img {
@@ -286,6 +294,7 @@ body {
 }
 
 .main-item-caption h3 {
+  font-family: 'Montserrat Bold';
   font-weight: bold;
   line-height: normal;
   font-size: 24px;
@@ -362,6 +371,7 @@ body {
 }
 
 .news-side-item h3 {
+  font-family: 'Montserrat Bold';
   font-weight: 500;
   line-height: 18px;
   font-size: 14px;
@@ -373,7 +383,7 @@ body {
 
 .date-span {
   display: block;
-  font-family: PT Serif;
+  font-family: 'PT Serif';
   font-style: normal;
   font-weight: normal;
   line-height: 15px;
@@ -382,7 +392,7 @@ body {
 }
 
 .news-side-list {
-  height: 690px;
+  height: 490px;
   overflow-y: scroll;
 }
 
@@ -397,7 +407,10 @@ body {
   -webkit-box-shadow: inset 0 0 6px #EEEEEE;
   background-color: #555;
 }
-
+.archive-side{
+  margin-top: 20px;
+  margin-bottom:  40px;
+}
 .subscribe-box {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -566,6 +579,7 @@ input::placeholder {
 }
 
 .news-item-caption h3 {
+  font-family: 'Montserrat Bold';
   font-weight: bold;
   line-height: 18px;
   font-size: 15px;
@@ -892,7 +906,15 @@ input::placeholder {
 .news-in .sidebar {
   padding-top: 0;
 }
-
+.news-in .news-side-top{
+  padding: 0 0 10px 0;
+}
+.category-news{
+  padding-top: 0;
+}
+.category-news .sidebar{
+  padding-top:0;
+}
 .news-cover {
   position: relative;
   padding-top: 25px;
@@ -1040,9 +1062,11 @@ input::placeholder {
   color: #000000;
   padding-bottom: 5px;
   border-bottom: 1px solid black;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
-
+.other-news-in .date-span{
+  font-style: italic;
+}
 .video-block {
   width: 100%;
   height: 560px;
@@ -1532,6 +1556,9 @@ input::placeholder {
   .news-in .archive-side {
     margin: 15px 0;
   }
+  .news-in .news-img-lg{
+    padding-right: 15px;
+  }
   .span-rubric {
     font-size: 8px;
   }
@@ -1549,7 +1576,8 @@ input::placeholder {
     font-size: 28px;
   }
   .archive-box .archive-side {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
   }
   .category-title h1 {
     font-size: 26px;
@@ -1559,6 +1587,9 @@ input::placeholder {
   }
   .contact-list li a {
     font-size: 14px;
+  }
+  .pr0{
+    padding-right: 15px;
   }
 }
 
@@ -1606,6 +1637,9 @@ input::placeholder {
   }
   .main-box .pr0 {
     padding-right: 15px;
+  }
+  .category-top .pr0{
+    padding-right: 0;
   }
   .news-side-item {
     padding-top: 8px;
